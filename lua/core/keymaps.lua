@@ -88,39 +88,6 @@ vim.keymap.set("n", "<space>gh", ":DiffviewFileHistory<CR>", { desc = "Open file
 
 
 
--- NOTE: Added Noice Last/History message
-vim.keymap.set("n", "<space>.l", ":NoiceLast<CR>", { desc = "Noice Last message" })
-vim.keymap.set("n", "<space>.h", ":NoiceHistory<CR>", { desc = "Noice History message" })
-
-
-
-
-
--- NOTE: Added pomo (timer) keymaps
-vim.keymap.set("n", "<space>tse", ":TimerSession<CR>", { desc = "Start Timer Session" })
-vim.keymap.set("n", "<space>tsta", ":TimerStart", { desc = "Timer Start (choose time)" })
-vim.keymap.set("n", "<space>tp", ":TimerPause<CR>", { desc = "Timer Pause" })
-vim.keymap.set("n", "<space>tc", ":TimerResume<CR>", { desc = "Timer Continue" })
-vim.keymap.set("n", "<space>tsh", ":TimerShow<CR>", { desc = "Timer Show" })
-vim.keymap.set("n", "<space>tsto", ":TimerStop<CR>", { desc = "Timer Stop" })
-vim.keymap.set("n", "<space>th", ":TimerHide<CR>", { desc = "Timer Hide" })
-
-
-
-
-
--- NOTE: Added obsidian  keymaps
-vim.keymap.set("n", "<space>oo", ":ObsidianOpen<CR>", { desc = "Open a note in the Obsidian app" })
-vim.keymap.set("n", "<space>ote", ":ObsidianTemplates<CR>", { desc = "Choose Template" })
-vim.keymap.set("n", "<space>otod", ":ObsidianToday<CR>", { desc = "Open today note" })
-vim.keymap.set("n", "<space>oton", ":ObsidianToday +", { desc = "Open today+ note" })
-vim.keymap.set("n", "<space>otom", ":ObsidianTomorrow<CR>", { desc = "Open tomorrow note" })
-vim.keymap.set("n", "<space>oye", ":ObsidianYesterday<CR>", { desc = "Open yesterday note" })
-
-
-
-
-
 -- NOTE: Added CMakeDebug start
 vim.keymap.set("n", "<space>dsc", ":CMakeDebug<CR>", { desc = "Start CMake debug"})
 

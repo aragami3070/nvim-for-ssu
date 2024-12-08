@@ -45,8 +45,6 @@ require('plugins.todo-comments')
 -- Added nvim-surround
 require("plugins.nvim-surround")
 
-require('plugins.dashboard-nvim')
-
 -- Added nvim-scrollbar plagin
 require("plugins.nvim-scrollbar")
 
@@ -56,22 +54,12 @@ require("plugins.CMake")
 -- Added rename plugin
 require("plugins.inc-rename")
 
--- Added pomo plugin (timer)
-require("plugins.pomo-nvim")
-
--- Added notify
-require("plugins.notify")
-
 -- Added git plugins 
 require('plugins.gitsigns')
 require('plugins.diffview')
 
-
 -- Added indent highlighting
 require("plugins.hlchunk-nvim")
-
--- Added Noice config
-require('plugins.noice')
 
 -- Added web preview
 require('plugins.web-tools-nvim')

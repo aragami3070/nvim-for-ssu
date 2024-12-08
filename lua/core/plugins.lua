@@ -189,12 +189,9 @@ require("lazy").setup({
         { "]", group = "Next" },
         { "<space>p", group = "Goto-preview" },
         { "<space>l", group = "Find file by" },
-        { "<space>t", group = "Timer" },
         { "<space>z", group = "Trouble keymaps" },
-        { "<space>oto", group = "Today/Tomorrow" },
         { "<space>s", group = "Spectre (like Ctrl+f but in all files)" },
         { "<space>n", group = "Rename word" },
-        { "<space>.", group = "Noice Last/History message" },
         { "<space>d", group = "Debugger" },
         { "<space>ds", group = "Debugger CMake start" },
         { "z", group = "Fold" },
@@ -231,20 +228,7 @@ require("lazy").setup({
   end,
 },
 
-    -- pomo (timer) plugin
-{
-  "epwalsh/pomo.nvim",
-  version = "*",  -- Recommended, use latest release instead of latest commit
-  lazy = true,
-  cmd = { "TimerStart", "TimerRepeat", "TimerSession" },
-  dependencies = {
-    -- Optional, but highly recommended if you want to use the "Default" timer
-    "rcarriga/nvim-notify",
-  },
-},
 
-    -- notify
-    { 'rcarriga/nvim-notify' },
 
     -- colorizer #color highlighting
     {'norcalli/nvim-colorizer.lua'},
@@ -276,26 +260,6 @@ require("lazy").setup({
         version = "*", -- Use for stability; omit to use `main` branch for the latest featuresevent
     },
 
-    {
-        'nvimdev/dashboard-nvim',
-        event = 'VimEnter',
-        dependencies = { {'nvim-tree/nvim-web-devicons'}}
-    },
-    {
-        "folke/noice.nvim",
-        event = "VeryLazy",
-        opts = {
-        -- add any options here
-        },
-        dependencies = {
-            -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
-            "MunifTanjim/nui.nvim",
-            -- OPTIONAL:
-            --   `nvim-notify` is only needed, if you want to use the notification view.
-            --   If not available, we use `mini` as the fallback
-            "rcarriga/nvim-notify",
-        }
-    },
 
 	{ 'Civitasv/cmake-tools.nvim' },
 
