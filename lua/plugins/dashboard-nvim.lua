@@ -24,7 +24,7 @@ end
 require('dashboard').setup {
     theme = 'doom',
     config = {
-        header = default_header(),
+        -- header = default_header(),
         center = {
             {
                 icon = '󰙅 ',
