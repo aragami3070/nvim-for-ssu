@@ -109,18 +109,6 @@ vim.keymap.set("n", "<space>th", ":TimerHide<CR>", { desc = "Timer Hide" })
 
 
 
--- NOTE: Added obsidian  keymaps
-vim.keymap.set("n", "<space>oo", ":ObsidianOpen<CR>", { desc = "Open a note in the Obsidian app" })
-vim.keymap.set("n", "<space>ote", ":ObsidianTemplates<CR>", { desc = "Choose Template" })
-vim.keymap.set("n", "<space>otod", ":ObsidianToday<CR>", { desc = "Open today note" })
-vim.keymap.set("n", "<space>oton", ":ObsidianToday +", { desc = "Open today+ note" })
-vim.keymap.set("n", "<space>otom", ":ObsidianTomorrow<CR>", { desc = "Open tomorrow note" })
-vim.keymap.set("n", "<space>oye", ":ObsidianYesterday<CR>", { desc = "Open yesterday note" })
-
-
-
-
-
 -- NOTE: Added CMakeDebug start
 vim.keymap.set("n", "<space>dsc", ":CMakeDebug<CR>", { desc = "Start CMake debug"})
 

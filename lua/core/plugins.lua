@@ -191,7 +191,6 @@ require("lazy").setup({
         { "<space>l", group = "Find file by" },
         { "<space>t", group = "Timer" },
         { "<space>z", group = "Trouble keymaps" },
-        { "<space>oto", group = "Today/Tomorrow" },
         { "<space>s", group = "Spectre (like Ctrl+f but in all files)" },
         { "<space>n", group = "Rename word" },
         { "<space>.", group = "Noice Last/History message" },
