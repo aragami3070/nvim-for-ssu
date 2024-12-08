@@ -190,7 +190,7 @@ require("lazy").setup({
         { "<space>p", group = "Goto-preview" },
         { "<space>l", group = "Find file by" },
         { "<space>t", group = "Timer" },
-        { "<space>o", group = "Obsidian" },
+        { "<space>z", group = "Trouble keymaps" },
         { "<space>oto", group = "Today/Tomorrow" },
         { "<space>s", group = "Spectre (like Ctrl+f but in all files)" },
         { "<space>n", group = "Rename word" },
@@ -246,24 +246,6 @@ require("lazy").setup({
     -- notify
     { 'rcarriga/nvim-notify' },
 
-    -- Obsidian.nvim
-    {
-        "epwalsh/obsidian.nvim",
-        version = "*",  -- recommended, use latest release instead of latest commit
-        lazy = true,
-        ft = "markdown",
-  -- Replace the above line with this if you only want to load obsidian.nvim for markdown files in your vault:
-  -- event = {
-  --   -- If you want to use the home shortcut '~' here you need to call 'vim.fn.expand'.
-  --   -- E.g. "BufReadPre " .. vim.fn.expand "~" .. "/my-vault/*.md"
-  --   -- refer to `:h file-pattern` for more examples
-  --   "BufReadPre path/to/my-vault/*.md",
-  --   "BufNewFile path/to/my-vault/*.md",
-  -- },
-        dependencies = {
-            "nvim-lua/plenary.nvim",
-        },
-    },
     -- colorizer #color highlighting
     {'norcalli/nvim-colorizer.lua'},
 
@@ -439,6 +421,6 @@ require("lazy").setup({
   -- colorscheme that will be used when installing plugins.
   -- install = { colorscheme = { "habamax" } },
   -- automatically check for plugin updates
-  checker = { enabled = true },
+  checker = { enabled = false },
 })
 

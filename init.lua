@@ -66,8 +66,6 @@ require("plugins.notify")
 require('plugins.gitsigns')
 require('plugins.diffview')
 
--- Added obsidian.nivm
-require("plugins.obsidian-nvim")
 
 -- Added indent highlighting
 require("plugins.hlchunk-nvim")
